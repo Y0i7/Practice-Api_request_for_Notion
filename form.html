@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- STEP :
+1 : load the JS librairy
+2 : required public key and the JS parameters as url sucess -->
+    <script type="text/javascript"
+        src="https://static.payzen.lat/static/js/krypton-client/V4.0/stable/kr-payment-form.min.js"
+        kr-public-key="33970753:testpublickey_dKFrKsgs6zB2TWykvZ9i6bQccjrRljBiiC3aQTn0DGKC2"
+        kr-post-url-success="[SUCCESS PAYMENT URL]" ;>
+        </script>
+    <!-- 3 : theme néon should be loaded in the HEAD section   -->
+    <link rel="stylesheet" href="https://static.payzen.lat/static/js/krypton-client/V4.0/ext/neon-reset.min.css">
+    <script type="text/javascript" src="https://static.payzen.lat/static/js/krypton-client/V4.0/ext/neon.js">
+    </script>
+</head>
+
+<body>
+    <!-- 4 : display the form payment -->
+
+    <body>
+        <div class="kr-smart-form" kr-card-form-expanded
+            kr-form-token="[https://docs.conecta.nequi.com.co/#!/Solicitud32de32token/post_token]">
+            (...)
+        </div>
+    </body>
+</body>
+
+</html>
