@@ -3,7 +3,7 @@ import requests
 def obtener_datos_nequi():
     url = "/-services-paymentservice-unregisteredpayment" 
     headers = {
-        "Authorization": "https://docs.conecta.nequi.com.co/#!/Solicitud32de32token/post_token", 
+        "Authorization": "https://docs.conecta.nequi.com./#!/Solicitud32de32token/post_token", 
         "Content-Type": "application/json"
     }
     
@@ -17,7 +17,7 @@ def obtener_datos_nequi():
 def agregar_a_notion(datos):
     notion_url = "https://api.notion.com/v1/pages"
     headers = {
-        "Authorization": "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", 
+        "Authorization": "ntn_486349048143Kk3vihaD6krCfGBc4qKx9Y4gXnGSb8Rl", 
         "Content-Type": "application/json",
         "Notion-Version": "2021-05-13"  
     }
